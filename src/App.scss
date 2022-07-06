@@ -37,7 +37,8 @@ body, html{
     }
   }
 
-  .email, 
+  .email,
+  .slack, 
   .twitter, 
   .whatsApp,
   .youtube,
@@ -55,29 +56,33 @@ body, html{
     }
   }
 
-  .twitter {
+  .slack{
     top: 4rem;
   }
 
-  .whatsApp {
+  .twitter {
     top: 6rem;
+  }
+
+  .whatsApp {
+    top: 8rem;
   }
   
   .youtube {
-    top: 8rem;
+    top: 10rem;
   }
 
   .github {
-    top: 10rem;
+    top: 12rem;
   }
   
 
   .localhost {
-    top: 12rem;
+    top: 14rem;
   }
 
   .localhost2{
-    top: 14rem;
+    top: 16rem;
   }
 
   h1 {
