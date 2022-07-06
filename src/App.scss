@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Catamaran:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body, html{
+  width: 100%;
+  height: 100vh;
+  font-family: 'poppins', sans-serif;
+  background: whitesmoke;
+}
+
+
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  p {
+    position: absolute;
+    left: 5rem;
+    top: 2rem;
+    color: rgb(54, 22, 54);
+    font-family: 'Anton', sans-serif;
+  }
+
+  .email, 
+  .twitter, 
+  .whatsApp,
+  .youtube,
+  .github,
+  .localhost, 
+  .localhost2 {
+    position: absolute;
+    right: 5rem;
+    top: 2rem;
+    transition: 0.5s;
+    font-size: 16px;
+
+    &:hover {
+      color: red;
+    }
+  }
+
+  .twitter {
+    top: 4rem;
+  }
+
+  .whatsApp {
+    top: 6rem;
+  }
+  
+  .youtube {
+    top: 8rem;
+  }
+
+  .github {
+    top: 10rem;
+  }
+  
+
+  .localhost {
+    top: 12rem;
+  }
+
+  .localhost2{
+    top: 14rem;
+  }
+
+  h1 {
+    margin-top: 15rem;
+    font-size: clamp(80px, 12vw, 12vw);
+    margin-bottom: 20px;
+    text-transform: uppercase;         
+    font-family: 'Anton', sans-serif;
+    line-height: 130px;
+  }
+
+  h3 {
+    color: #093624;
+    font-size: 24px;
+  }
+
+}
