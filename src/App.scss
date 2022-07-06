@@ -30,6 +30,11 @@ body, html{
   .portfolio {
     position: absolute;
     top: 2rem;
+
+
+    &:hover {
+      color: red;
+    }
   }
 
   .email, 
