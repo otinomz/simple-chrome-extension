@@ -8,6 +8,7 @@ function App() {
 
     <div className="App">
       <p>Exhale Words</p>
+      <a className="portfolio" href="https://otinomz.vercel.app">My Portfolio</a>
       <a className="email" href="https://mail.google.com/mail/u/0/#inbox">Email</a>
       <a className="twitter" href="https://twitter.com/">Twitter</a>
       <a className="whatsApp" href="https://web.whatsapp.com/">WhatsApp</a>
