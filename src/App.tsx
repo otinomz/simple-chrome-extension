@@ -10,7 +10,7 @@ function App() {
       <p>Exhale Words</p>
       <a className="portfolio" href="https://otinomz.vercel.app">My Portfolio</a>
       <a className="email" href="https://mail.google.com/mail/u/0/#inbox">Email</a>
-      <a className="slack" href="https://app.slack.com/"> Slack <a/>
+      <a className="slack" href="https://app.slack.com/"> Slack </a>
       <a className="twitter" href="https://twitter.com/">Twitter</a>
       <a className="whatsApp" href="https://web.whatsapp.com/">WhatsApp</a>
       <a className="youtube" href="https://youtube.com/">YouTube</a>
@@ -19,7 +19,8 @@ function App() {
       <a className="localhost2" href="http://localhost:3001/">localhost:3001</a>
 
       <h1>{VocabList[randomNumber].word}</h1>
-      <h3>{VocabList[randomNumber].definition }.</h3>
+      <h3>{VocabList[randomNumber].definition}.</h3>
+        
     </div>
 
   )
