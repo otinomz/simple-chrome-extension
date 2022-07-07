@@ -19,7 +19,7 @@ export const dailyLink = [
     
     {
       id: "#4",
-      link: "https://open.spotify.com/"
+      link: "https://open.spotify.com/",
       name: "Spotify"
     },
 
