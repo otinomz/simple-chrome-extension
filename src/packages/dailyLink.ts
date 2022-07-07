@@ -19,36 +19,42 @@ export const dailyLink = [
     
     {
       id: "#4",
+      link: "https://open.spotify.com/"
+      name: "Spotify"
+    },
+
+    {
+      id: "#5",
       link: "https://twitter.com/",
       name: "Twitter"
     },
     
     {
-      id: "#5",
+      id: "#6",
       link: "https://web.whatsapp.com/",
       name: "WhatsApp"
     },
     
     {
-      id: "#6",
+      id: "#7",
       link: "https://youtube.com/",
       name: "YouTube"
     },
     
     {
-      id: "#7",
+      id: "#8",
       link: "https://github.com/",
       name: "Github"
     },
     
     {
-      id: "#8",
+      id: "#9",
       link: "http://localhost:3000/",
       name: "Localhost:3000"
     },
     
     {
-      id: "#9",
+      id: "#10",
       link: "http://localhost:3001/",
       name: "Localhost:3001"
     },
