@@ -38,6 +38,7 @@ body, html{
   }
 
   .email,
+  .figma,
   .slack, 
   .twitter, 
   .whatsApp,
@@ -56,38 +57,42 @@ body, html{
     }
   }
 
-  .slack{
+  .figma {
     top: 4rem;
   }
 
-  .twitter {
+  .slack{
     top: 6rem;
   }
 
-  .whatsApp {
+  .twitter {
     top: 8rem;
+  }
+
+  .whatsApp {
+    top: 10rem;
   }
   
   .youtube {
-    top: 10rem;
+    top: 12rem;
   }
 
   .github {
-    top: 12rem;
+    top: 14rem;
   }
   
 
   .localhost {
-    top: 14rem;
+    top: 16rem;
   }
 
   .localhost2{
-    top: 16rem;
+    top: 18rem;
   }
 
   h1 {
     margin-top: 15rem;
-    font-size: clamp(80px, 9vw, 12vw);
+    font-size: clamp(80px, 10vw, 12vw);
     margin-bottom: 20px;
     text-transform: uppercase;         
     font-family: 'Anton', sans-serif;
